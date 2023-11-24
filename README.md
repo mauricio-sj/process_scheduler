@@ -18,7 +18,7 @@ Simulador de execução de processos em Python, desenvolvido como parte da avali
 ***
 ## Indice
 
-1. [Apresentação](#Apresentação do trabalho)  
+1. [Apresentação](#Apresentação)  
 2. [Funcionamento](#Funcionamento)  
 3. [Requisitos do trabalho](#Requisitos)
 4. [Entrada](#Entrada)
@@ -35,7 +35,7 @@ Simulador de execução de processos em Python, desenvolvido como parte da avali
 
 <div id='Apresentação do trabalho'/>  
 
-## :clipboard: Apresentação do trabalho  
+## :clipboard: Apresentação
 
 Imagine um sistema operacional com funcionalidades avançadas de escalonamento de processos. Esse ambiente é projetado para acomodar até ```N``` processos, onde o usuário define previamente o número desejado. Cada processo é caracterizado por três parâmetros cruciais:
 
