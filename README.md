@@ -168,7 +168,7 @@ A resposta deve ser dada em função do **turn-around médio** (tempo de espera 
 ## :gear: Uso do programa
 
 O programa pode ser utilizado em qualquer plataforma que tenha Python 3.x
-> É aconselhado a utilizar a [release](mauricio-sj/process_scheduler_memor_virtual) mais recente 
+> É aconselhado a utilizar a [release](mauricio-sj/process_scheduler) mais recente 
 
 
 <div id='Start'/>
@@ -179,12 +179,11 @@ O programa pode ser utilizado em qualquer plataforma que tenha Python 3.x
 
 > :warning: É recomendado que se instale as bibliotecas em um ambiente virtual, evitando conflitos de versões das bibliotecas instaladas localmente no seu computador. Para tal siga as instruções a seguir, de acordo sua plataforma.
 
-- UNIX:  
+- Linux:  
 
 ```sh
   python3 -m venv env
   source env/bin/activate  
-  pip3 install -r requirements.txt
 ```
 
 - Windows:  
@@ -192,7 +191,6 @@ O programa pode ser utilizado em qualquer plataforma que tenha Python 3.x
 ```sh
   python -m venv env
   env\Scripts\activate
-  pip install -r requirements.txt
 ```
 
 <div id='Execução'/>
@@ -205,7 +203,7 @@ Para executar basta dar o comando:
   python InterFace.py
 ```
 
-Em plataformas UNIX é bom especificar a versão do Python, já que em algumas o Python 2.x ainda vem como padrão, com o comando:
+Em plataformas Linux é bom especificar a versão do Python, já que em algumas o Python 3.x ainda vem como padrão, com o comando:
 
 ```sh
   python3 InterFace.py
