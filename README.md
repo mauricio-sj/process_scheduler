@@ -16,9 +16,9 @@
 Simulador de execução de processos em Python, desenvolvido como parte da avaliação da disciplina MATA58 - Sistemas Operacionais, do Departamento de Ciência da Computação da Universidade Federal da Bahia, sob a orientação do professor Maycon Leone Maciel Peixoto. Este simulador representa uma ferramenta educacional para entender os conceitos de escalonamento de processos, gerenciamento de memória e operações de entrada/saída em sistemas operacionais. O código foi criado para explorar e visualizar o comportamento de diferentes algoritmos de escalonamento e estratégias de gerenciamento de recursos em um ambiente simulado.
 
 ***
-## Sumário
+## Indice
 
-1. [Situação](#Situação)  
+1. [Apresentação do trabalho](#Apresentação do trabalho)  
 2. [Funcionamento](#Funcionamento)  
 3. [Requisitos do trabalho](#Requisitos)
 4. [Entrada](#Entrada)
@@ -35,7 +35,7 @@ Simulador de execução de processos em Python, desenvolvido como parte da avali
 
 <div id='Situação'/>  
 
-## :clipboard: Situação  
+## :clipboard: Apresentação do trabalho  
 
 Imagine um sistema operacional com funcionalidades avançadas de escalonamento de processos. Esse ambiente é projetado para acomodar até ```N``` processos, onde o usuário define previamente o número desejado. Cada processo é caracterizado por três parâmetros cruciais:
 
