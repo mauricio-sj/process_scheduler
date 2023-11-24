@@ -2,10 +2,10 @@
 
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/mauricio-sj/process_scheduler_memor_virtual?color=%2304D361">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mauricio-sj/process_scheduler_memor_virtual">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/mauricio-sj/process_scheduler?color=%2304D361">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mauricio-sj/process_scheduler">
   <a href="https://github.com/mauricio-sj/process_scheduler_memor_virtual/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mauricio-sj/process_scheduler_memor_virtual">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mauricio-sj/process_scheduler">
   </a>
   <a href="https://github.com/seu-usuario/seu-repositorio/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/seu-usuario/seu-repositorio?style=social">
