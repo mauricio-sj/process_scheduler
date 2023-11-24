@@ -129,11 +129,6 @@ Deve ser escolhido um dos algoritmos de escalonamento de processo ofertados
 - ``` SJF (Shortest Job First) ```;
 - ``` RR (Round-Robin)```;
 - ``` EDF (Earliest Deadline First) ```;
-- ``` SPN (Shortest Process Next) ```;
-- ``` LOT (Loteria) ```;
-- ``` PRIO (Prioridade) ```;
-
- > Os três últimos algoritmos foram adicionalmente implementados. Mais informações [aqui](#Adicionais)
 
 Deve ser escolhido um dos algoritmos de paginação:
 
