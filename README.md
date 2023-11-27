@@ -199,6 +199,9 @@ Em plataformas Linux é bom especificar a versão do Python, já que em algumas 
 <div id='Autores'/>
 Alunos:
 Aymar Batista Schindler Neto
+  
 Bianca Fernandes Silva
+
 Felipe Ferraz de Mello
+
 Mauricio dos Santos de Jesus
