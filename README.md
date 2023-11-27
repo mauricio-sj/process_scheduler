@@ -162,7 +162,7 @@ O programa pode ser utilizado em qualquer plataforma que tenha Python 3.x
 
 ### Instalação dos requisitos
 
-- Abra um Terminal ou Prompt de Comando dentro da pasta ``` process-escalonator/ ```:  
+- Abra um Terminal ou Prompt de Comando dentro da pasta:  
 
 > :warning: É recomendado que se instale as bibliotecas em um ambiente virtual, evitando conflitos de versões das bibliotecas instaladas localmente no seu computador. Para tal siga as instruções a seguir, de acordo sua plataforma.
 
