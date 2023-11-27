@@ -4,6 +4,7 @@ import os
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QColor, QIcon
+from PyQt5.QtGui import QRegion
 from process import Process
 from WProcess import Window_Process
 from escalonator import Escalonator
@@ -29,6 +30,9 @@ class Main_Window(QMainWindow):
 
         self.setGeometry(300, 300, 900, 400)
         self.setWindowTitle('Escalonador de processos')
+
+                # Criando uma máscara de formato circular
+
         self.show()
 
         self.statusBar()
@@ -119,6 +123,29 @@ class Main_Window(QMainWindow):
         self.toolbar.addAction(Run)
 
         self.path = os.path.abspath("Interface.py")
+
+        self.setStyleSheet("""
+            QMainWindow {
+                background-color: #f0f0f0; /* Cor de fundo para a janela principal */
+            }
+            
+            QToolBar {
+                background-color: #d0d0d0; /* Cor de fundo para a barra de ferramentas */
+                border: none; /* Remover borda */
+                spacing: 10px; /* Espaçamento entre os itens */
+            }
+            
+            QToolButton {
+                background-color: #a0a0a0; /* Cor de fundo para os botões */
+                border: 1px solid #707070; /* Borda para os botões */
+                border-radius: 5px; /* Cantos arredondados */
+                padding: 5px; /* Espaçamento interno */
+            }
+            
+            QToolButton:hover {
+                background-color: #c0c0c0; /* Cor de fundo ao passar o mouse sobre os botões */
+            }
+        """)
 
 
         menuBar = self.menuBar()

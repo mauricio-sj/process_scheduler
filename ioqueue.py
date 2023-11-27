@@ -25,10 +25,10 @@ class IO():
         if len(self.queue) > 0:
             process = self.queue[0]
             if (process.numpages - len(process.pages) > 0):
-                for i in range(min(2, process.numpages - len(process.pages))):
+                for i in range(min(2,process.numpages - len(process.pages))):
                     process.addPages(self.mmu.allocatePage(process, cpuProcess=cpu.process))
             else:
-                for i in range(min(2, len(list(filter(lambda ref: not self.mmu.vm.isPageAllocated(process, ref), process.pages))))):
+                for i in range(min(2,len(list(filter(lambda ref: not self.mmu.vm.isPageAllocated(process, ref), process.pages))))):
                     process.addPages(self.mmu.allocatePage(process, cpuProcess=cpu.process))
 
             if self.mmu.isAllocated(process):

@@ -84,7 +84,7 @@ class RAM():
             for ind in range_list:
                 if self.queue[ind].num != process.id:
                     selec_list.append(ind)
-            # selec_list = list(filter(lambda page: self.queue[page].num != process.id, selec_list))
+            #selec_list = list(filter(lambda page: self.queue[page].num != process.id, selec_list))
             
             index = selec_list[0]
             for page in selec_list:
