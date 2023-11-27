@@ -149,14 +149,6 @@ A resposta deve ser dada em função do **turn-around médio** (tempo de espera 
 
 -   Utilizamos uma **memória virtual** com o dobro de capacidade da memória RAM, ou seja,  **400 K**  
 
-- A **capacidade do disco** é o somatório de `B`<sub>i</sub> para i variando de 1 a ``N``, ou seja, assumimos que o disco comporta todas as páginas de todos os processos criados.
-
--   Em caso de _page fault_ utilizamos ``` teto ((B - A) / W) ``` **_tiques_ de clock** para uso do disco, onde:
-
-    -   `A` é o **número de páginas, desse processo, já alocadas na RAM** e;  
-
-    -   `W ` é a **quantidade de páginas, escritas na RAM, por segundo**, em nossa implementação, escolhemos o valor de ```2 páginas por segundo```  
-
 
 <div id='Uso'/>
 
@@ -205,3 +197,8 @@ Em plataformas Linux é bom especificar a versão do Python, já que em algumas 
 ```
 
 <div id='Autores'/>
+Alunos:
+Aymar Batista Schindler Neto
+Bianca Fernandes Silva
+Felipe Ferraz de Mello
+Mauricio dos Santos de Jesus
