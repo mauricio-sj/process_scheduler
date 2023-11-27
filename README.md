@@ -8,7 +8,7 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mauricio-sj/process_scheduler">
   </a>
   <a href="https://github.com/seu-usuario/seu-repositorio/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/seu-usuario/seu-repositorio?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/mauricio-sj/process_scheduler?style=social">
   </a>
 </p>
 
