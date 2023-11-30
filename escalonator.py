@@ -7,7 +7,7 @@ class Escalonator():
     """ Classe responsável pela  gerência da fila de prontos """
 
     NON_PREEMPTIVE_ALGORITHMS = ["FCFS", "SJF"]
-    PREEMPTIVE_ALGORITHMS = ["RR", "EDF", "SPN", "PRIO", "LOT"]
+    PREEMPTIVE_ALGORITHMS = ["RR", "EDF"]
 
     def __init__(self, typeof="FCFS", override=.015, cpu=None):
         """ Método de inicialização de um escalonador.
@@ -41,12 +41,7 @@ class Escalonator():
         elif self.algorithm == "SJF" or self.algorithm == "SPN":
             self.ready_queue.sort(key=lambda x: (x.start, x.execution_time))
             self.not_arrived.sort(key=lambda x: (x.start, x.execution_time))
-        elif self.algorithm == "PRIO":
-            self.ready_queue.sort(key=lambda x: (x.start, x.priority), reverse=True)
-            self.not_arrived.sort(key=lambda x: (x.start, x.priority), reverse=True)
-        elif self.algorithm == "LOT":
-            random.shuffle(self.ready_queue)
-            self.not_arrived.sort(key=lambda x: x.start)
+
 
     def updateDeadline(self):
         """ Atualiza o deadline de todos os processos na fila de prontos """
@@ -90,11 +85,8 @@ class Escalonator():
         if len(self.ready_queue) > 1:
             if self.algorithm == "FCFS":
                 self.ready_queue.sort(key=lambda x: x.start)
-            elif self.algorithm == "SJF" or self.algorithm == "SPN":
+            elif self.algorithm == "SJF":
                 self.ready_queue.sort(key=lambda x: x.execution_time)
             elif self.algorithm == "EDF":
                 self.ready_queue.sort(key=lambda x: x.deadline)
-            elif self.algorithm == "PRIO":
-                self.ready_queue.sort(key=lambda x: x.priority, reverse=True)
-            elif self.algorithm == "LOT":
-                random.shuffle(self.ready_queue)
+

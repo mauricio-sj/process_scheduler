@@ -1,4 +1,3 @@
-
 import sys
 import os
 from PyQt5.QtCore import Qt
@@ -56,7 +55,7 @@ class Main_Window(QMainWindow):
 
         self.comboMem = QComboBox()
         self.comboMem.addItem("FIFO")
-        self.comboMem.addItem("MRU")
+        self.comboMem.addItem("LRU")
 
         linhaCPU = QLabel()
         linhaCPU.setText("Algoritmo de escalonamento")

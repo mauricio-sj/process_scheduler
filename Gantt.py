@@ -15,6 +15,8 @@ class Window_Gantt(QWidget):
         self.tableWidget = QTableWidget()
         self.tableWidget.setRowCount(len(processes))
         self.tableWidget.setColumnCount(1)
+        self.setStyleSheet("background-color: white;")
+
 
         nameMem = QTableWidgetItem()
         nameMem.setText("RAM")
@@ -44,6 +46,7 @@ class Window_Gantt(QWidget):
         self.tickRun.setSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
         self.layout2 = QHBoxLayout()
         self.tickRun.clicked.connect(self.tick)
+        self.tickRun.setStyleSheet("background-color: #4CAF50; color: white;")
         self.ticksQuant = QSpinBox()
         self.ticksQuant.setMinimum(1)
         self.ticksQuant.setSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
