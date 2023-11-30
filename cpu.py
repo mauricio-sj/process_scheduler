@@ -61,7 +61,7 @@ class CPU():
 
         if self.preemptiveness:    
             
-            if self.state != CPU.State[1]:
+            if self.state != CPU.State[3]:
                 self.execute()
                 if self.quantum - self.processing_time == 0:
                     self.state = CPU.State[5]
